@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(120, 93, 201);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+.box {
+  display: flex;
+  position: relative;
+  width: 300px;
+}
+#password {
+  outline: none;
+  border: none;
+  width: 90%;
+  height: 30%;
+  padding: 10px;
+  border-radius: 20px;
+}
+#eyeimage {
+  height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}

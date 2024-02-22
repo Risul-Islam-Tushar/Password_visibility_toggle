@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <input type="password" placeholder="Enter password" id="password" />
+        <img src="./assets/download.png" alt="" srcset="" id="eyeimage" />
+      </div>
+    </div>
+
+    <script>
+      let password_field = document.getElementById("password");
+      let eye_image = document.getElementById("eyeimage");
+
+      eye_image.onclick = function () {
+        if (password_field.type == "password") {
+          password_field.type = "text";
+        } else {
+          password_field.type = "password";
+        }
+      };
+    </script>
+  </body>
+</html>
